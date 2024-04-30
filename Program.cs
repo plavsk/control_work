@@ -41,7 +41,6 @@ class Program
         }
 
         array(originalArray);
-        printArray(originalArray);
         printArray(newArray(originalArray));
     }
 }
