@@ -6,26 +6,42 @@ class Program
         Console.Write("Введите количество элементов массива: ");
         int m = Convert.ToInt32(Console.ReadLine());
         string[] originalArray = new string[m];
-        for (int i = 0; i < originalArray.Length; i++)
-        {
-            Console.WriteLine($"Введите {i + 1} элемент массива");
-            originalArray[i] = Console.ReadLine();
-        }
-        string[] newArray = new string[originalArray.Length];
-        int newIndex = 0;
 
-        for (int i = 0; i < originalArray.Length; i++)
+        void array(string[] stringArray)
         {
-            if (originalArray[i].Length <= 3)
+            for (int i = 0; i < stringArray.Length; i++)
             {
-                newArray[newIndex] = originalArray[i];
-                newIndex++;
+                Console.WriteLine($"Введите {i + 1} элемент массива");
+                stringArray[i] = Console.ReadLine();
             }
         }
-        Console.WriteLine("Новый массив строк:");
-        for (int i = 0; i < newIndex; i++)
+
+        void printArray(string[] stringArray)
         {
-            Console.WriteLine(newArray[i]);
+            Console.WriteLine("Массив строк:");
+            for (int i = 0; i < stringArray.Length; i++)
+            {
+                Console.WriteLine(stringArray[i]);
+            }
         }
+
+        string[] newArray(string[] stringArray)
+        {
+            string[] newArray = new string[stringArray.Length];
+            int newIndex = 0;
+            for (int i = 0; i < stringArray.Length; i++)
+            {
+                if (stringArray[i].Length <= 3)
+                {
+                    newArray[newIndex] = stringArray[i];
+                    newIndex++;
+                }
+            }
+            return newArray;
+        }
+
+        array(originalArray);
+        printArray(originalArray);
+        printArray(newArray(originalArray));
     }
 }
