@@ -1,0 +1,15 @@
+/Users/a.fedoryakov/git/control_work/obj/Debug/net8.0/control_work.GeneratedMSBuildEditorConfig.editorconfig
+/Users/a.fedoryakov/git/control_work/obj/Debug/net8.0/control_work.AssemblyInfoInputs.cache
+/Users/a.fedoryakov/git/control_work/obj/Debug/net8.0/control_work.AssemblyInfo.cs
+/Users/a.fedoryakov/git/control_work/obj/Debug/net8.0/control_work.csproj.CoreCompileInputs.cache
+/Users/a.fedoryakov/git/control_work/obj/Debug/net8.0/control_work.sourcelink.json
+/Users/a.fedoryakov/git/control_work/bin/Debug/net8.0/control_work
+/Users/a.fedoryakov/git/control_work/bin/Debug/net8.0/control_work.deps.json
+/Users/a.fedoryakov/git/control_work/bin/Debug/net8.0/control_work.runtimeconfig.json
+/Users/a.fedoryakov/git/control_work/bin/Debug/net8.0/control_work.dll
+/Users/a.fedoryakov/git/control_work/bin/Debug/net8.0/control_work.pdb
+/Users/a.fedoryakov/git/control_work/obj/Debug/net8.0/control_work.dll
+/Users/a.fedoryakov/git/control_work/obj/Debug/net8.0/refint/control_work.dll
+/Users/a.fedoryakov/git/control_work/obj/Debug/net8.0/control_work.pdb
+/Users/a.fedoryakov/git/control_work/obj/Debug/net8.0/control_work.genruntimeconfig.cache
+/Users/a.fedoryakov/git/control_work/obj/Debug/net8.0/ref/control_work.dll
